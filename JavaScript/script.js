@@ -1,6 +1,8 @@
 "use strict"; // строгий режим
-/*
-основной код программы
-*/
-let num = 123, name = 'John', age = 20;
-alert(num);
+let a;
+
+a = 10;
+alert(a);
+
+a = 20;
+alert(a);
