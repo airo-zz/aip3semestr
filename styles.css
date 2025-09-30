@@ -1,0 +1,41 @@
+p {
+	color: orange;
+    width: 300px;
+    font-family: "Comic Sans MS", "Times New Roman";
+}
+
+h1 {
+	color: green;
+    font-family: Arial;
+}
+
+h2 {
+	color: blue;
+}
+
+h3 {
+	color: red;
+}
+
+ul {
+	color: #796ad9;
+}
+
+td {
+    width: 400px;
+    height: 300px;
+}
+
+.text {
+    text-align: right;
+    text-align: left;
+    width: 600px;
+    font-size: 30px;
+    line-height: 1.5;
+    text-indent: 50px;
+    text-decoration: overline underline line-through;
+}
+
+a {
+    text-decoration: none;
+}
