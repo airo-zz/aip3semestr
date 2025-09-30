@@ -1,8 +1,13 @@
 "use strict"; // строгий режим
-let a;
+let a = 10;
+let b = 2;
 
-a = 10;
-alert(a);
+alert(a + b);
+alert(a - b);
+alert(a * b);
+alert(a / b);
 
-a = 20;
-alert(a);
+let c = 10;
+let d = 5;
+result = c + d;
+alert(result);
