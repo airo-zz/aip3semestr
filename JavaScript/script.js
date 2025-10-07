@@ -1,5 +1,5 @@
 "use strict"; // строгий режим
 
-let a = '10'
-let b = '20'
-alert(Number(a) + Number(b))
+let a = +'2';
+let b = +'3';
+alert(a + b);
