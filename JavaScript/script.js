@@ -1,8 +1,5 @@
 "use strict"; // строгий режим
 
-const p = 3.14;
-let d = 3;
-
-let C = p * d;
-
-alert(C)
+let a = '10'
+let b = '20'
+alert(Number(a) + Number(b))
