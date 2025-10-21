@@ -1,6 +1,3 @@
-ul i, ul em {
-    color: red;
-}
-p i, p em {
-    color: green;
+p b i {
+  color: red;
 }
