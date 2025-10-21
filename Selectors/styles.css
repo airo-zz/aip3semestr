@@ -1,12 +1,11 @@
-.success {
-	color: green;
+.highlight {
+	background: yellow;
 }
-.error {
-	color: red;
+
+.uppercase {
+	text-transform: uppercase;
 }
-.large {
-	font-size: 30px;
-}
-.small {
-	font-size: 20px;
+
+.spaced {
+	letter-spacing: 2px;
 }
