@@ -1,11 +1,12 @@
-.highlight {
-	background: yellow;
+#elem1 {
+	color: red;
 }
 
-.uppercase {
-	text-transform: uppercase;
+#elem2 {
+	color: green;
 }
 
-.spaced {
-	letter-spacing: 2px;
+#elem3 {
+	color: deepskyblue;
 }
+
