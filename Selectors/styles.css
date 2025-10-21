@@ -1,7 +1,17 @@
-p[class^="top-"] {
-	background: #fffae6;
-	color: #d35400;
-	border-left: 4px solid #f1c40f;
-	padding-left: 6px;
+a:link {
+	color: deepskyblue;
+	text-decoration: underline;
 }
 
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+a:active {
+	color: #000;
+}
