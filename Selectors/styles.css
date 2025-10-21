@@ -1,4 +1,7 @@
-[title] {
-	outline: 2px dashed #f00;
-	color: #d00;
+p[class^="top-"] {
+	background: #fffae6;
+	color: #d35400;
+	border-left: 4px solid #f1c40f;
+	padding-left: 6px;
 }
+
