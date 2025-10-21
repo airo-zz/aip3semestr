@@ -1,8 +1,11 @@
-.red {
+.header {
 	color: red;
 }
 
-.green {
-	color: green;
+h2.header {
+	font-size: 40px;
 }
 
+h3.header {
+	font-size: 30px;
+}
