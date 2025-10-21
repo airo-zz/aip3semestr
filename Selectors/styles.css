@@ -1,28 +1,7 @@
-.first p:first-of-type {
-	background: #eaf7ff;
-	color: #0b76c5;
+#elem {
+	border-width: 5px;
+	border-style: solid;
+	border-color: blue;
+	width: 200px;
+	height: 100px;
 }
-
-.last p:last-of-type {
-	background: #eaffea;
-	color: #168c3a;
-}
-
-.nth p:nth-of-type(2) {
-	background: #fff3e0;
-	color: #c6590b;
-}
-.nth li:nth-of-type(odd) {
-	background: #f7f7f7;
-}
-
-.nth-last p:nth-last-of-type(2) {
-	background: #f0eaff;
-	color: #5d3dc4;
-}
-
-.only .wrapper p:only-of-type {
-	background: #ffeaf1;
-	color: #a8154a;
-}
-
