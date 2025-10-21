@@ -1,3 +1,18 @@
-ol {
-	list-style-type: lower-alpha;
+#parent {
+	width: 200px;
+	border: 1px solid blue;
+	border-style: dashed;
+}
+
+#child {
+	height: 100px;
+	border: 1px solid green;
+	margin: 10px;
+    border-style: dashed;
+}
+
+#child2 {
+	height: 80px;
+	border: 1px solid red;
+	margin: 10px;
 }
