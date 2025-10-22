@@ -1,8 +1,4 @@
 "use strict";
 
-let str = '12345';
-let sum = 0;
-for (let char of str) {
-    sum += Number(char);
-}
-console.log(sum);
+const num = 12345;
+alert(num[0] * num[1] * num[2] * num[3] * num[4]);
