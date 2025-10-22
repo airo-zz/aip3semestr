@@ -1,5 +1,11 @@
-"use strict"; // строгий режим
+"use strict";
 
-let str = 'abcde';
-let num = 2; // номер символа (индекс)
-alert(str[num]);
+let num1 = 12345;
+let num2 = 6789;
+
+let count1 = num1.toString().length;
+let count2 = num2.toString().length;
+
+let cnt = count1 + count2;
+
+alert(cnt);
