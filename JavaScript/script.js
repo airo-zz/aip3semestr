@@ -1,7 +1,4 @@
 "use strict";
 
-let num = 10;
-num++;
-num++;
-num--;
-alert(num);
+let age = prompt("Пожалуйста, введите ваш возраст:");
+alert("Ваш возраст: " + age);
