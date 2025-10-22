@@ -1,4 +1,8 @@
 "use strict";
 
-const num = 12345;
-alert(num[0] * num[1] * num[2] * num[3] * num[4]);
+let num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+alert(num);
