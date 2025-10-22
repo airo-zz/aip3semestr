@@ -1,8 +1,7 @@
 "use strict";
 
 
-document.write("1<br>");
-document.write("2<br>");
-document.write("3<br>");
-document.write("4<br>");
-document.write("5<br>");
+let num1 = 1;
+let num2 = 2;
+let sum = Number(num1) + Number(num2);
+document.write('сумма: ' + sum);
