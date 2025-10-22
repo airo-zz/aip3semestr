@@ -1,20 +1,17 @@
 "use strict";
 
-const daysOfWeek = {
-    1: "Понедельник",
-    2: "Вторник",
-    3: "Среда",
-    4: "Четверг",
-    5: "Пятница",
-    6: "Суббота",
-    7: "Воскресенье"
+let obj = {
+    1: 'Январь',
+    2: 'Февраль',
+    3: 'Март',
+    4: 'Апрель',
+    5: 'Май',
+    6: 'Июнь',
+    7: 'Июль',
+    8: 'Август',
+    9: 'Сентябрь',
+    10: 'Октябрь',
+    11: 'Ноябрь',
+    12: 'Декабрь'
 };
-
-console.log("1: " + daysOfWeek[1]);
-console.log("2: " + daysOfWeek[2]);
-console.log("3: " + daysOfWeek[3]);
-console.log("4: " + daysOfWeek[4]);
-console.log("5: " + daysOfWeek[5]);
-console.log("6: " + daysOfWeek[6]);
-console.log("7: " + daysOfWeek[7]);
-
+console.log(obj);
