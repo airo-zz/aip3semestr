@@ -1,3 +1,9 @@
-p {
-    display: inline;
+a {
+	display: block;
+	border: 2px solid black;
+	width: 200px;
+	height: 50px;
+	margin: 10px;
+	text-align: center;
+	line-height: 50px;
 }
