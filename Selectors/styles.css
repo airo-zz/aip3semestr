@@ -1,0 +1,506 @@
+body {
+	background-color: darkgray;
+}
+
+.three p {
+	color: blue;
+}
+
+.three b {
+    color: rgb(21, 255, 0);
+}
+
+.four p {
+	color: blue;
+}
+
+.four b {
+	color: red;
+}
+
+.two_four ul {
+	color: blue;
+}
+
+.two_five ul {
+	color: blue;
+}
+
+.two_five li {
+	color: red;
+}
+
+.two_six ul {
+	color: blue;
+}
+
+.two_six li {
+	color: red;
+}
+
+.two_six i {
+	color: green;
+}
+
+.two_seven i {
+	font-size: 30px;
+}
+
+.two_seven ul {
+	font-size: 20px;
+}
+
+.two_seven li {
+	color: red;
+	font-weight: bold;
+}
+
+.two_seven {
+	color: none;
+}
+
+.two_seven i {
+	font-size: 30px;
+}
+
+.two_seven ul {
+	font-size: 20px;
+}
+
+.four_one h1, .four_one h2, .four_one h3 {
+	text-align: center;
+}
+
+.four_two h1, .four_two h2, .four_two h3 {
+	text-align: center;
+	font-size: 16px;
+	color: red;
+}
+
+.five_one ul li i {
+	color: red;
+}
+
+.five_one p i {
+	color: green;
+}
+
+.five_two p b i {
+	color: blue;
+}
+
+.six ul li b {
+	color: purple;
+}
+
+.seven_one .odd {
+	color: blue;
+}
+
+.seven_one .eve {
+	color: blueviolet;
+}
+
+.seven_two .eee {
+	color: green;
+}
+
+.a {
+	color: red;
+}
+
+.b {
+	color: pink;
+}
+
+.eee, .zzz {
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: Arial;
+}
+
+.eee, .zzz, .ggg {
+    font-family: Arial;
+}
+
+.eee {
+    font-size: 20px;
+}
+
+.zzz {
+    font-size: 30px;
+}
+
+.ggg {
+    font-size: 35px;
+}
+
+.header {
+	color: rgb(183, 0, 255);
+}
+
+h2.header {
+    font-size: 40px;
+}
+
+h3.header {
+    font-size: 30px;
+}
+
+.shest .eee i{
+	color: purple;
+}
+
+.xsw p {
+	color: pink;
+}
+
+.xsw h2.header {
+	color: green;
+}
+
+.cde .success {
+	color: green;
+}
+
+.cde .error {
+	color: red;
+}
+
+.cde .large {
+	font-size: 30px;
+}
+
+.cde .small {
+	font-size: 20px;
+}
+
+#elem1 {
+    color: red;
+}
+
+#elem2 {
+    color: green;
+}
+
+#elem3 {
+    color: blue;
+}
+
+#block {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.nhy .text {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.qdb {
+	color: orange;
+}
+
+.zvc {
+	color: red;
+}
+
+h2.bbb.zzz {
+	color: red;
+}
+
+h2#elem.bbb {
+	color: orange;
+}
+
+.ccd .asda {
+	color: pink;
+}
+
+#bvc h1, #bvc h2 {
+    text-align: center;
+}
+
+#bvc h1 {
+    font-size: 30px;
+}
+
+#bvc h2 {
+    font-size: 20px;
+}
+
+.rfc .efc, .zxccxzzxc h2.zsq, #vas h2 {
+    text-align: center;
+}
+
+.aaaasa div > p {
+	color: brown;
+}
+
+#wwwwwww .bbb {
+    color: blue;
+}
+
+.ddded {
+    color: blueviolet;
+}
+
+.vvvvvvva .ccccccca {
+    color: violet;
+}
+
+.fff h2.bbb {
+    color: darkblue;
+}
+
+.чфычыф h2 {
+	font-size: 20px;
+}
+
+.чфычыф h2 {
+	font-size: 30px;
+	color: aqua;
+}
+
+.cccccccas h2 {
+	font-size: 20px;
+	color: blue;
+}
+
+.cccccccas h2 {
+	font-style: italic;
+	color: red;
+}
+
+#dqwdw + li {
+    color: aquamarine;
+}
+
+.cdaac + li {
+    color: aliceblue;
+}
+
+#vvvavvva + li {
+	color: aqua;
+}
+
+main > * > p {
+    color: skyblue;
+}
+
+/*
+
+[title] {
+	
+}
+
+p[title] {
+
+}
+
+p[title="hello"] {
+
+}
+
+a[href^="http://"] {
+
+}
+
+a[href$=".html"] {
+
+}
+
+p[title*="hello"] {
+
+}
+
+p[class^="top-"] {
+
+}
+
+*/
+
+.csacacsacacsac a {
+    text-decoration: none;
+}
+
+.csacacsacacsac a:hover {
+    color: red;
+}
+
+.csacacsacacsac a:link {
+    color: blue;
+}
+
+.csacacsacacsac a:visited {
+    color: green;
+}
+
+.csacacsacacsac a:active {
+    color: black;
+}
+
+.cascaszx a {
+    text-decoration: none;
+    color: blue;
+}
+
+.cascaszx a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#vasaaaasa a {
+	color: red;
+}
+
+#vasaaaasa a:hover {
+	text-decoration: none;
+}
+
+.czxs a.zzz {
+	color: aquamarine;
+}
+
+.czxs a.zzz:hover {
+	text-decoration: none;
+}
+
+.aq li:last-child {
+	color: darkviolet;
+}
+
+.aq li:first-child {
+	color: skyblue;
+}
+
+.aw li:last-child {
+	color: darkviolet;
+}
+
+.aw li:first-child {
+	color: skyblue;
+}
+
+.bs {
+	font-size: 30px;
+}
+
+.czm {
+	font-size: 30px;
+}
+
+.czm li:nth-child(odd) {
+	color: aqua;
+}
+
+.czm li:nth-child(even) {
+	color: seagreen;
+}
+
+.czm li:nth-child(7) {
+	color: pink;
+}
+
+.vax {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.red {
+    background-color: red;
+    border: 2px solid red;
+}
+
+.blue {
+    background-color: blue;
+    border: 2px solid blue;
+}
+
+.paw {
+	background: url("https://avatars.mds.yandex.net/i?id=51f171a3a45c960b5699f7a84f793ea1_l-5332335-images-thumbs&n=13");
+}
+ 
+.paw {
+	color: azure;
+}
+
+.paw h2:nth-last-of-type(2) {
+	font-size: 50px;
+	color: violet;
+	text-shadow: white;
+}
+
+.we li:not(:first-child) {
+	color: azure;
+}
+
+#cazwa {
+	font-size: 40px;
+	width: 400px;
+	height: 400px;
+	color: white;
+	background-color: aqua;
+}
+
+#bz {
+	font-size: 30px;
+	color: aliceblue;
+	border-width: 3px;    
+	border-style: dotted;
+	border-color: aquamarine;   
+	width: 600px;
+	height: 300px;
+}
+
+#vz {
+	border-width: 10px;
+	border-style: double;
+	border-color: aquamarine;
+	width: 300px;
+	height: 100px;
+	border-left: 15px solid darkcyan;
+	border-right: 20px solid darkblue;
+	border-radius: 20px;	
+	background-color: #e4f1ed;
+}
+
+#elem {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: 1px solid red;
+}
+
+#свц {
+	width: 500px;
+	height: 500px;
+	border-radius: 265px;
+	border: 1px solid rgb(39, 132, 219);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

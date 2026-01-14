@@ -1,0 +1,464 @@
+.aaq #elem1 {
+	position: absolute;
+	top: 150px;
+	left: 100px;
+
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+}
+.aaq #elem2 {
+	position: absolute;
+	top: 250px;
+	left: 250px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid blue;
+}
+
+.aaq #elem3 {
+	position: absolute;
+	top: 350px;
+	left: 400px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid green;
+}
+
+
+
+.aaw #elem1 {
+	position: absolute;
+	top: 600px;
+	left: 100px;
+
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+}
+.aaw #elem2 {
+	position: absolute;
+	top: 600px;
+	left: 250px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid blue;
+}
+
+.aaw #elem3 {
+	position: absolute;
+	top: 600px;
+	left: 400px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid green;
+}
+
+
+
+
+.aae #elem1 {
+	position: absolute;
+	top: 900px;
+	left: 100px;
+
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+		background-color: red;
+
+}
+.aae #elem2 {
+	position: absolute;
+	top: 980px;
+	left: 180px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid blue;
+		background-color:  blue;
+}
+
+.aae #elem3 {
+	position: absolute;
+	top: 1060px;
+	left: 260px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid green;
+	background-color: green;
+}
+
+
+.aar #elem1 {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #FF8888;
+}
+.aar #elem2 {
+	position: relative;
+	top: -40px;
+	left: 40px;
+	
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #7E89EB;
+}
+.aar #elem3 {
+	position: relative;
+	bottom: 80px;
+	left: 110px;
+
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #4DEE99;
+}
+
+.aat #parent {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+.aat #child {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+
+.aay #parent {
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid green;
+	background-color: green;
+}
+.aay #child1 {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	
+	width: 100px;
+	height: 100px;
+	background-color: white;
+}
+
+.aay #child2 {
+	position: absolute;
+	bottom: 60px;
+	right: 60px;
+	
+	width: 100px;
+	height: 100px;
+	background-color: white;
+}
+
+.aau #parent {
+	position: relative;
+	width: 300px;
+	height: 600px;
+	margin: 0 auto;
+	border: 1px solid black;
+
+}
+.aau #child1 {
+	border-radius: 50%;
+
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	
+	width: 150px;
+	height: 150px;
+	background-color: rgb(247, 0, 0);
+	border: 1px solid black;
+}
+
+.aau #child2 {
+	border-radius: 50%;
+
+	position: absolute;
+	top: 230px;
+	left: 80px;
+	
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	border: 1px solid black;
+}
+
+.aau #child3 {
+	border-radius: 50%;
+
+	position: absolute;
+	top: 400px;
+	left: 80px;
+	
+	width: 150px;
+	height: 150px;
+	background-color: rgb(19, 109, 1);
+	border: 1px solid black;
+}
+
+
+
+
+.aai #parent {
+	border-radius: 50%;
+
+	position: relative;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: rgb(200, 200, 29);
+
+
+}
+
+
+.aai #child1 {
+	border-radius: 50%;
+
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	
+	width: 300px;
+	height: 300px;
+	background-color: white;
+}
+
+.aai #child2 {
+	border-radius: 50%;
+
+	position: absolute;
+	top: 170px;
+	left: 125px;
+	
+	width: 350px;
+	height: 350px;
+	background-color: rgb(200, 200, 29);
+
+}
+
+.aai #child3 {
+	border-radius: 50%;
+
+	position: absolute;
+	top: 300px;
+	left: 240px;
+	
+	width: 120px;
+	height: 120px;
+	background-color: white;
+}
+
+.aai #child4 {
+	border-radius: 50%;
+
+	position: absolute;
+	top: 100px;
+	left: 130px;
+	
+	width: 120px;
+	height: 120px;
+	background-color: white;
+}
+
+.aai #child5 {
+	border-radius: 50%;
+
+	position: absolute;
+	top: 100px;
+	right: 130px;
+	
+	width: 120px;
+	height: 120px;
+	background-color: white;
+}
+
+.aao #parent {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+}
+
+.aao #child1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.aao #child2 {
+    position: absolute;
+	bottom: 0;
+    left: 0;
+
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+
+.aap #elem {
+	position: absolute;
+	top:    100px;
+	right:  100px;
+	bottom: 100px;
+	left:   100px;
+	
+	border: 1px solid green;
+}
+
+
+
+.aaa #elem {
+	position: absolute;
+	top:    100px;
+	right:  200px;
+	bottom: 50px;
+	left:   10px;
+	
+	border: 1px solid green;
+}
+
+.aas #elem1 {
+	position: fixed; /* задаем фиксированное 
+		позиционирование */ 
+	top: 150px;
+	right: 500px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+
+.aas #elem2 {
+	position: fixed; /* задаем фиксированное 
+		позиционирование */ 
+	top: 150px;
+	left: 500px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+
+
+
+
+.aas #content {
+	margin: 0 auto;
+	width: 300px;
+	text-align: justify;
+	font: 16px Arial;
+}
+
+
+.aad #elem {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	border: 1px solid green;
+background-color: rgb(207, 207, 0);
+text-align: center;
+line-height: 100px;
+font-size: 21px;
+
+}
+
+
+
+
+
+.aaf #elem1 {
+	z-index: 1;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+	background-color: red;
+
+}
+.aaf #elem2 {
+	z-index: 0;
+	position: absolute;
+	top: 280px;
+	left: 180px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid blue;
+		background-color:  blue;
+}
+
+.aaf #elem3 {
+	z-index: 1;
+	position: absolute;
+	top: 360px;
+	left: 260px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid green;
+	background-color: green;
+}
+
+
+.aag #elem1 {
+	z-index: 2;
+	position: absolute;
+	top: 500px;
+	left: 100px;
+
+	width: 100px;
+	height: 100px;
+	border: 2px solid red;
+	background-color: red;
+
+}
+.aag #elem2 {
+	z-index: 1;
+	position: absolute;
+	top: 580px;
+	left: 180px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid blue;
+		background-color:  blue;
+}
+
+.aag #elem3 {
+	z-index: 0;
+	position: absolute;
+	top: 660px;
+	left: 260px;
+	
+	width: 100px;
+	height: 100px;
+	border: 2px solid green;
+	background-color: green;
+}

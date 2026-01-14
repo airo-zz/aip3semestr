@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>This is the title</title>
+        <link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+		This is the main content of the page.
+
+        <ul>
+	        <li>text <a href="">link</a></li>
+	        <li>text <a href="">link</a></li>
+	        <li>text <a href="">link</a></li>
+	        <li>text <a href=""><b>bold link</b></a></li>
+        </ul>
+
+        <p>Родственные связи : ul - родитель (корень списка). li - дети (4 элемента). a - ребёнок (b -жирный текст). b - текстовый узел</p>
+
+        <table>
+	        <tr>
+		        <td>cell 1</td>
+		        <td>cell 2</td>
+		        <td>cell 3</td>
+	        </tr>
+	        <tr>
+		        <td>cell 4</td>
+		        <td>cell 5</td>
+		        <td>cell 6</td>
+	        </tr>
+	        <tr>
+		        <td>cell 7</td>
+		        <td>cell 8</td>
+		        <td>cell 9</td>
+	        </tr>
+        </table>
+
+        <p> Родитель - table (корень таблицы).  tr - ребёнок (три строки таблицы). td - ребёнок (столбцы)</p>
+
+        <div class="one"> 
+            <p>
+	            This is a paragraph with text
+	            <i><b>bold italic</b></i>
+	            <a href="">link <i>italic</i></a>.
+            </p>
+        </div>
+
+        <p>Родитель - p (абзац). текстовые узлы ("This is a paragraph with text", пробел, точка), i (курсив), a (ссылка) - дети. b (жирный), внутренний i (курсив в ссылке), все текстовые узлы - потомки.</p>
+<br><br>
+        <div class="two"> 
+            <p>
+	            This is a paragraph with text
+	            <i><b>bold italic</b></i>
+	            <a href="">link <i>italic</i></a>.
+            </p>
+        </div>
+
+        <p>Родитель - i (непосредственный, курсив). Родитель - a (ссылка). Родитель - p (абзац)</p>
+<br><br>
+        <div class="three"> 
+            <p>
+                This is some <b>text</b> in paragraph.
+            </p>
+            <h>в b - зелёный</h>
+        </div>
+<br><br>
+        <div class="four"> 
+            <p>
+	            This is some <b>text</b> in paragraph.
+            </p>
+            <h>красный</h>
+        </div>
+<br><br>
+        <div class="two_four"> 
+            <ul>
+				<li>text</li>
+				<li>text</li>
+				<li>text</li>
+			</ul>
+            <h>синий</h>
+        </div>
+<br><br>
+		<div class="two_five"> 
+            <ul>
+				<li>text</li>
+				<li>text</li>
+				<li>text</li>
+			</ul>
+            <h>красный</h>
+        </div>
+<br><br>
+		<div class="two_six"> 
+            <ul>
+				<li>text <i>italic</i> text</li>
+				<li>text <i>italic</i> text</li>
+				<li>text <i>italic</i> text</li>
+			</ul>
+            <h>i имеет зеленый цвет</h>
+        </div>
+<br><br>
+		<div class="two_seven"> 
+            <ul>
+				<li>text <i>italic</i> text</li>
+				<li>text <i>italic</i> text</li>
+				<li>text <i>italic</i> text</li>
+			</ul>
+            <h>i имеет красный цвет</h>
+        </div>
+<br><br>
+		<div class="four_one"> 
+			<h1>Это заголовок первого уровня</h1>
+			<h2>Это заголовок второго уровня</h2>
+			<h3>Это заголовок третьего уровня</h3>
+        </div>
+<br><br>
+		<div class="four_two"> 
+			<h1>Это заголовок первого уровня</h1>
+			<h2>Это заголовок второго уровня</h2>
+			<h3>Это заголовок третьего уровня</h3>
+        </div>
+<br><br>
+		<div class="five_one"> 
+			<ul>
+				<li>text <i>italic</i></li>
+				<li>text <i>italic</i></li>
+				<li>text <i>italic</i></li>
+				<li>text <i>italic</i></li>
+			</ul>
+			<p>
+				paragraph text <i>italic</i>
+			</p>
+			<p>
+				paragraph text <i>italic</i>
+			</p>
+        </div>
+<br><br>
+		<div class="five_two"> 
+			<p>
+				paragraph text <b><i>bold italic</i></b>
+			</p>
+			<p>
+				paragraph text <i>italic</i>
+			</p>
+        </div>
+<br><br>
+		<div class="six"> 
+			<ul>
+				<li>
+					<i>italic</i>
+					<b>bold</b>
+					<b><i>bold italic</i></b>
+				</li>
+				<li>
+					<i>italic</i>
+					<b>bold</b>
+					<b><i>bold italic</i></b>
+				</li>
+			</ul>
+        </div>
+<br><br>
+
+
+
+<div class="seven_one"> 
+	<ul>
+		<li class="odd">text</li>
+		<li class="eve">text</li>
+		<li class="odd">text</li>
+		<li class="eve">text</li>
+		<li class="odd">text</li>
+		<li class="eve">text</li>
+	</ul>
+</div>
+<br><br>
+<div class="seven_two"> 
+	<h2 class="eee">Title</h2>
+	<p class="eee">
+		paragraph
+	</p>
+	<p class="eee">
+		paragraph
+	</p>
+	<p>
+		paragraph without class
+	</p>
+	<ul class="eee">
+		<li>text</li>
+		<li>text</li>
+		<li>text</li>
+		<li>text</li>
+		<li>text</li>
+	</ul>
+	<p>Теги li красятся в красный цвет из-за наследования свойства color от родительского элемента ul, которому назначен класс .eee, задающий красный цвет.</p>
+</div>
+<br><br>
+<div class="seven_two"> 
+	<div class="a">
+		<h2>Title</h2>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+	</div>
+	<div class="b">
+		<h2>Title</h2>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+	</div>
+	<div class="a">
+		<h2>Title</h2>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+	</div>
+</div>
+<br><br>
+<div class="pyat_devyat"> 
+	<h2 class="header">text</h2>
+	<h2 class="header">text</h2>
+	<h3 class="header">text</h3>
+	<h3 class="header">text</h3>
+</div>
+<br><br>
+<div class="shest"> 
+	<p class="eee">
+		text <i>italic</i>
+	</p>
+	<p class="eee">
+		text <i>italic</i>
+	</p>
+	<div class="eee">
+		text <i>italic</i>
+	</div>
+	<div class="eee">
+		text <i>italic</i>
+	</div>
+</div>
+<br><br>
+<div class="xsw">
+	<div class="block">
+		<h2 class="header">Title h2</h2>
+		<p>
+			text
+		</p>
+		<h3 class="header">Title h3</h3>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+	</div>
+	<div class="block">
+		<h2 class="header">Title h2</h2>
+		<p>
+			text
+		</p>
+		<h3 class="header">Title h3</h3>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+	</div>
+</div>
+<br><br>
+<div class="cde">
+	<a class="small"> I'm tired of doing the same things.<br> </a>
+	<a class="success"> I'm tired of doing the same things.<br> </a>
+	<a class="error"> I'm tired of doing the same things.<br> </a>
+	<a class="large"> I'm tired of doing the same things.<br> </a>
+</div>
+<br><br>
+<div class="gbt">
+	<div id="elem1">
+		<h2>Title</h2>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+	</div>
+	<div id="elem2">
+		<h2>Title</h2>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+	</div>
+	<div id="elem3">
+		<h2>Title</h2>
+		<p>
+			text
+		</p>
+		<p>
+			text
+		</p>
+	</div>
+</div>
+<br><br>
+<div class="nhy">
+	<div id="block" class="text">
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+	</div>
+	<div class="text">
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+	</div>
+</div>
+<br><br>
+<div class="mju"> 
+	<div id="elem">
+		<p class="text">+++</p>
+		<p class="text">+++</p>
+		<ul>
+			<li class="text">+++</li>
+			<li class="text">+++</li>
+			<li class="text">+++</li>
+			<li>---</li>
+			<li>---</li>
+		</ul>
+	</div>
+	<p class="text">---</p>
+</div>
+<div class="qdb"> 
+	<p class="eee zzz ccc">
+		This is a paragraph with text.
+	</p>
+</div>
+<div class="zvc"> 
+	<h1> Привет мир </h1>
+</div>
+<div class="mnb"> 
+	<h2 class="bbb zzz">
+	    Привет Мир
+	</h2>
+</div>
+<div class="qdb"> 
+	<h2 id="elem" class="bbb">
+  	    Привет, Мир!
+	</h2>
+</div>
+<div class="ccd"> 
+	<div class="asds">
+    	<p class="asda">Приветики!</p>
+	</div>
+</div>
+<div class="qweewq"> 
+	<div id="bvc">
+	    <h1>Заголовок 1</h1>
+	    <h2>Заголовок 2</h2>
+	</div>
+</div>
+<div class="cfr"> 
+	<div class="rfc">
+	    <div class="efc">
+	        <p>Текст</p>
+	    </div>
+	</div>
+	<div class="zxccxzzxc">
+	    <h2 class="zsq">Заголовок 1</h2>
+	</div>
+	<h2 id="vas">Заголовок 2</h2>
+</div>
+<div class="aaaasa"> 
+	<div>
+		<p>
+			+++
+		</p>
+		<p>
+			+++
+		</p>
+	</div>
+	<div>
+		<p>
+			+++
+		</p>
+	</div>
+	<p>
+		---
+	</p>
+	<p>
+		---
+	</p>
+</div>
+<div class="qqqqqqqqqqqqq"> 
+	<div id="wwwwwww">
+		<br><br>
+		<h2 class="bbb">+++</h2>
+		<p class="bbb">
+			+++
+		</p>
+		<p>
+			---
+		</p>
+		<h2 class="bbb">+++</h2>
+		<p>
+			---
+		</p>
+	</div>
+	<div class="bbb">
+		---
+	</div>
+	<h2>---</h2>
+	<p class="bbb">
+		---
+	</p>
+</div>
+<div class="ccccccc"> 
+	<br><br>
+	<div class="ddded">
+		+++
+	</div>
+	<h2 class="fff">+++</h2>
+	<p class="fff">
+		+++
+	</p>
+	<h2 class="bbb">---</h2>
+	<p class="xxx">
+		---
+	</p>
+</div>
+<div class="qqqqqqqqqqqqqqqqqqqqqqqqqqqqq"> 
+	<br><br>
+	<div class="vvvvvvva">
+		<h2 class="ccccccca">+++</h2>
+		<p>
+			---
+		</p>
+		<p>
+			---
+		</p>
+		<p class="bbb">
+			+++
+		</p>
+	</div>
+	<h2 class="fff">---</h2>
+	<p class="bbb">
+		---
+	</p>
+</div>
+<div class="aaaaaaaaaa"> 
+	<div class="fff">
+		<h2 class="bbb">+++</h2>
+		<p>
+			---
+		</p>
+		<h2 class="bbb">+++</h2>
+		<p>
+			---
+		</p>
+		<p class="bbb">
+			---
+		</p>
+	</div>
+	<h2 class="bbb">---</h2>
+	<p class="bbb">
+		---
+	</p>
+	<p class="fff">
+		---
+	</p>
+</div>
+<div class="чфычыф"> 
+	<h2> Правило перезаписано, поэтому  font-size: 30px; </h2>
+</div>
+<div class="cccccccas"> 
+	<h2>заголовок h2 будет иметь шрифт 30 пикселей в высоту, написанный красным цветом и наклонно.</h2>
+</div>
+<div class="cccccccccec">
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li id="dqwdw">5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+	</ul>
+</div>
+<div class="aaaaaaascxascasxasc"> 
+	<br><br>
+	<ul>
+		<li>1</li>
+		<li class="cdaac">2</li>
+		<li>3</li>
+		<li>4</li>
+		<li class="cdaac">5</li>
+		<li>6</li>
+		<li>7</li>
+		<li class="cdaac">8</li>
+		<li>9</li>
+	</ul>
+</div>
+<div class="aaaaaaaaaascccsa"> 
+	<br><br>
+	<ul>
+		<li>1</li>	
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li id="vvvavvva">5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+	</ul>
+</div>
+<div class="cacscaca"> 
+	<br><br>
+	<main>
+		<p>---</p>
+		<p>---</p>
+		<div>
+			<p>+++</p>
+			<p>+++</p>
+		</div>
+		<section>
+			<p>+++</p>
+			<p>+++</p>
+		</section>
+	</main>
+</div>
+<div class="csacacsacacsac"> 
+    <h1>Пример ссылок</h1>
+    <p>Это обычная ссылка: <a href="#">Нажмите здесь</a></p>
+    <p>Это наведенная ссылка: <a href="#" onmouseover="this.style.color='red'">Нажмите здесь</a></p>
+    <p>Это незавизитированная ссылка: <a href="#link1">Нажмите здесь</a></p>
+    <p>Это завизитированная ссылка: <a href="#link2">Нажмите здесь</a></p>
+    <p>Это активная ссылка: <a id="active-link" href="#">Нажмите здесь</a></p>
+</div>
+<div class="cascaszx">
+	<br><br> 
+	<a href="#">Пример ссылки</a>
+</div>
+<div class="caszxx"> 
+	<br><br>
+	<div id="vasaaaasa">
+		<a href="#">Пример ссылки</a>
+	</div>
+</div>
+<div class="qaca"> 
+	<br><br>
+	<div class="czxs">
+		<a href="" class="zzz">Пример ссылки</a>
+	</div>
+</div>
+<div class="bs"> 
+	<ul class="aq">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+	</ul>
+	<ul class="aw">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+	</ul>
+</div>
+<div class="cassazqw"> 
+	<br><br>
+	<ul class="czm">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>10</li>
+	</ul>
+</div>
+<div class="мф"> 
+    <div class="vax">
+        <div class="tag red">1</div>
+        <div class="tag red">2</div>
+        <div class="tag red">3</div>
+        <div class="tag blue">4</div>
+    </div>
+</div>
+<div class="мф"> 
+	<div class="paw">
+		<h2>заголовок</h2>
+		<p>абзац</p>
+	
+		<h2>заголовок</h2>
+		<p>абзац</p>
+	
+		<h2>заголовок</h2>
+		<p>абзац</p>
+	
+		<h2>заголовок</h2>
+		<p>абзац</p>
+	
+		<h2>заголовок</h2>
+		<p>абзац</p>
+	
+		<h2>заголовок</h2>
+		<p>абзац</p>
+	
+		<h2>заголовок</h2>
+		<p>абзац</p>
+	</div>
+</div>
+<div class="caszxq"> 
+	<ul class="we">
+		<li>list item</li>
+		<li>list item</li>
+		<li>list item</li>
+		<li>list item</li>
+		<li>list item</li>
+	</ul>
+</div>
+<div class="мф"> 
+	<div id="cazwa">
+		Lorem ipsum dolor sit amet.
+	</div>
+</div>
+<div class="мф"> 
+	<br><br>
+	<div id="bz">
+		helo mir
+	</div>
+</div>
+<div class="vb">
+	<br><br> 
+	<div id="vz">
+		mamma mia
+	</div>
+</div>
+<div class="ия">
+	<br><br> 
+	<div id="свц">
+	</div>
+</div>
+
+
+	</body>
+</html>

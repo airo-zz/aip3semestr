@@ -1,0 +1,18 @@
+body {
+    background: url('testBavcKKjefkjwhijku.jpg');
+    z-index: 1;
+}
+
+.ПРИВЕТ {
+    color: rgb(#ffffff6e);
+    z-index: 4;
+    font-size: 100px;    
+}
+
+.otvet {
+    background: #2670ad9d;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: rgb(0, 0, 0);
+
+}
