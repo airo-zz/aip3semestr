@@ -1,0 +1,26 @@
+h1 {
+	text-align: right;
+}
+h2 {
+	text-align: center;
+    width: 300px;
+    font-weight: normal;
+}
+
+td {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th {
+    text-align: left;
+    font-weight: normal;
+}
+
+p {
+    width: 300px;
+    text-align: left, right;
+    font-weight: bold;
+}

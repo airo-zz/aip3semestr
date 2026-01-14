@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	background-color: darkgray;
 }
@@ -504,3 +505,11 @@ p[class^="top-"] {
 
 
 
+=======
+div {
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	display: inline-block;
+}
+>>>>>>> 895562e54dc6ec933dbda68c00ba8ce1a6069c5c
